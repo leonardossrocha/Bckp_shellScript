@@ -6,6 +6,7 @@
 # Criado em: Maio de 2021
 # Versão: 1.0
 # Autor: Leonardo Rocha
+# x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
 echo "----------------------------------------"
 echo "#####>>>>   BACKUP DE ARQUIVOS <<<<#####"
 echo "----------------------------------------"
