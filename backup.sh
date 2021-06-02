@@ -72,7 +72,7 @@ if lsblk -f | grep -wq $uuid; then
       rsync  -CrAahvzp --delete /home/leonardo/Músicas/ /media/leonardo/leonardo/Músicas/
     elif [ $op -eq 10 ]; then
       echo "Backup de SpiderOak iniciando"
-      rsync  -CrAahvzp --delete /home/leonardo/SpiderOak/ /media/leonardo/leonardo/SpiderOak/
+      rsync  -CrAahvzp --delete /home/leonardo/SpiderOak\ Hive/ /media/leonardo/leonardo/SpiderOak\ Hive/
     elif [ $op -eq 11 ]; then
       echo "Backup de Vídeos iniciando"
       rsync  -CrAahvzp --delete /home/leonardo/Vídeos/ /media/leonardo/leonardo/Vídeos/
