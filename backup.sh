@@ -45,7 +45,7 @@ while [ $repete -eq 1 ]; do
       echo "[ 0  ] Para Sair"
       echo -n "Escolha a opção desejada: "
       read op
-      uuid=6FD34F2715DC33C0
+      uuid=6498298474BB650F
       #inicia os testes para verificar qual tipo de backup deve ser feito
       if lsblk -f | grep -wq $uuid; then
         echo "HD Conectado com sucesso!"
